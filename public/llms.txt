@@ -1,35 +1,45 @@
-# Business — Generative Engine Optimization Map
+# Viking Code — Generative Engine Optimization Map
+
+> Viking Code is a neuroscience-based personal performance coaching brand founded by a practitioner with 20 years of experience. The brand blends masculine strength with emotional sensitivity — symbolized by 'horns and flowers' — targeting high-achieving executives, doctors, and edge performers. The visual and verbal identity is sophisticated, not aggressive: purple, gold, and white tones with a calm-yet-powerful atmosphere. The methodology centers on neurological rewiring to eliminate 'success tax' (mental noise, stress, background anxiety) and convert external chaos into forward momentum. The founder's personal story of collapse and rebuilding at age 50 is a core narrative element, lending authenticity and depth.
 
 ---
 
 ## Pages
 
 ### בית
-https://example.com
+https://viking-code.zappy5.app
 Viking Code is a neuroscience-based personal performance coaching brand founded by a practitioner with 20 years of experience. The brand blends masculine streng
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://example.com/privacy
+https://viking-code.zappy5.app/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://example.com/terms
+https://viking-code.zappy5.app/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://example.com/accessibility
+https://viking-code.zappy5.app/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About Viking Code
+Viking Code is a neuroscience-based personal performance coaching brand founded by a practitioner with 20 years of experience. The brand blends masculine strength with emotional sensitivity — symbolized by 'horns and flowers' — targeting high-achieving executives, doctors, and edge performers. The visual and verbal identity is sophisticated, not aggressive: purple, gold, and white tones with a calm-yet-powerful atmosphere. The methodology centers on neurological rewiring to eliminate 'success tax' (mental noise, stress, background anxiety) and convert external chaos into forward momentum. The founder's personal story of collapse and rebuilding at age 50 is a core narrative element, lending authenticity and depth.
+
+## Target Audience
+בכירים, רופאים ואנשי קצה — מנכ"לים ואנשי ביצועים גבוהים
+
+## Industry
+פיתוח אישי, קואוצ'ינג, מדעי המוח
+
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://example.com/sitemap.xml
-- **Robots.txt**: https://example.com/robots.txt
+- **Sitemap**: https://viking-code.zappy5.app/sitemap.xml
+- **Robots.txt**: https://viking-code.zappy5.app/robots.txt

@@ -3588,6 +3588,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   flex-direction: column;
   align-items: center;
   padding-bottom: 0;
+  overflow: hidden;
 }
 
 .index-story-section .index-story-portrait-frame {
@@ -3632,7 +3633,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 .index-story-section .index-story-portrait-badge {
   position: absolute;
   bottom: auto;
-  inset-inline-start: -20px;
+  inset-inline-start: 16px;
   background: linear-gradient(135deg, #D3A12F 0%, #B88A3B 100%);
   border-radius: 12px;
   padding: 16px 20px;
@@ -3643,7 +3644,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   box-shadow: 0 8px 24px rgba(184,138,59,0.35);
   z-index: 10;
   min-width: 80px;
-  top: 20px;
+  top: 16px;
 }
 
 .index-story-section .index-story-badge-years {
@@ -6215,6 +6216,14 @@ body.accessibility-widget-visible ._access-menu {
 .nav-cta-container {
   flex-shrink: 0 !important;
 }
+}
+
+.index-story-section .index-story-neuron-deco {
+  display: none !important;
+}
+
+.index-story-section .index-story-portrait-col {
+  gap: 0 !important;
 }
 
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */

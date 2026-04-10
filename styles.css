@@ -3582,12 +3582,12 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   display: block;
 }
 
-/* ── PORTRAIT COLUMN ── */
 .index-story-section .index-story-portrait-col {
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 0;
 }
 
 .index-story-section .index-story-portrait-frame {
@@ -3597,6 +3597,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 0 20px 48px rgba(74,47,93,0.38), 0 0 0 1px rgba(184,138,59,0.2);
+  margin-bottom: 0;
 }
 
 .index-story-section .index-story-portrait-img {
@@ -3628,10 +3629,9 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   z-index: 2;
 }
 
-/* Experience badge */
 .index-story-section .index-story-portrait-badge {
   position: absolute;
-  bottom: 28px;
+  bottom: auto;
   inset-inline-start: -20px;
   background: linear-gradient(135deg, #D3A12F 0%, #B88A3B 100%);
   border-radius: 12px;
@@ -3643,6 +3643,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   box-shadow: 0 8px 24px rgba(184,138,59,0.35);
   z-index: 10;
   min-width: 80px;
+  top: 20px;
 }
 
 .index-story-section .index-story-badge-years {

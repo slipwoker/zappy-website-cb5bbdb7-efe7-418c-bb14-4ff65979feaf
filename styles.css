@@ -2972,17 +2972,15 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   }
 }
 
-/* index-features */
 .index-features-section {
   position: relative;
   overflow: visible;
   background-color: #F7F1EA;
-  background-image:
-    radial-gradient(rgba(74,47,93,0.04) 0.8px, transparent 0.8px),
+  background-image: radial-gradient(rgba(74,47,93,0.04) 0.8px, transparent 0.8px),
     linear-gradient(180deg, #FBF6F0 0%, #EFE4D7 100%);
   background-size: 10px 10px, 100% 100%;
   color: var(--text-dark);
-  padding: 96px 24px 80px;
+  padding: 96px 24px 56px;
   direction: rtl;
 }
 

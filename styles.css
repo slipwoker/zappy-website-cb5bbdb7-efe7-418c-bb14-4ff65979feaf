@@ -2722,7 +2722,6 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
     );
 }
 
-/* ── Container ── */
 .index-hero-section .index-hero-container {
   position: relative;
   z-index: 10;
@@ -2734,6 +2733,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   justify-content: flex-start;
   align-items: center;
   min-height: 100vh;
+  padding-top: 90px;
 }
 
 /* ── Frosted Card ── */

@@ -242,6 +242,319 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.index-hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: visible;
+  background-color: #2C2926;
+  color: var(--text-light);
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  padding-bottom: 80px;
+}
+
+/* ── Background Image ── */
+.index-hero-section .index-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.index-hero-section .index-hero-img-bg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  position: absolute;
+  inset: 0;
+}
+
+/* ── Scrim ── */
+.index-hero-section .index-hero-scrim {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+  background-image:
+    linear-gradient(105deg,
+      rgba(44, 41, 38, 0.92) 0%,
+      rgba(44, 41, 38, 0.78) 38%,
+      rgba(74, 47, 93, 0.45) 65%,
+      rgba(44, 41, 38, 0.15) 100%
+    );
+}
+
+/* ── Grain Texture ── */
+.index-hero-section .index-hero-texture {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+  opacity: 0.5;
+}
+
+/* ── Content ── */
+.index-hero-section .index-hero-content {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 160px 48px 60px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.index-hero-section .index-hero-inner {
+  max-width: 680px;
+  text-align: right;
+}
+
+/* ── Label ── */
+.index-hero-section .index-hero-label {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.index-hero-section .index-hero-label-line {
+  display: block;
+  width: 36px;
+  height: 1px;
+  background: linear-gradient(90deg, #B88A3B 0%, #F0C56A 100%);
+  flex-shrink: 0;
+}
+
+.index-hero-section .index-hero-label-text {
+  font-family: 'Manrope', 'Avenir Next', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #B88A3B;
+  line-height: 1.5;
+}
+
+/* ── H1 ── */
+.index-hero-section .index-hero-h1 {
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  font-size: clamp(52px, 7vw, 80px);
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  color: var(--text-light);
+  margin: 0 0 16px;
+  text-shadow: 0 2px 24px rgba(44, 41, 38, 0.55);
+}
+
+.index-hero-section .index-hero-h1-accent {
+  background: linear-gradient(90deg, #B8841B 0%, #F0C56A 48%, #B8841B 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+}
+
+/* ── H3 ── */
+.index-hero-section .index-hero-h3 {
+  font-family: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  font-size: clamp(20px, 2.4vw, 26px);
+  font-weight: 400;
+  line-height: 1.45;
+  color: var(--text-light);
+  margin: 0 0 28px;
+  text-shadow: 0 1px 12px rgba(44, 41, 38, 0.6);
+  letter-spacing: 0.01em;
+}
+
+/* ── Brand Line ── */
+.index-hero-section .index-hero-brand {
+  font-family: 'Manrope', 'Avenir Next', sans-serif;
+  font-size: 13px !important;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #B88A3B;
+  margin: 0 0 24px;
+  line-height: 1.6;
+}
+
+/* ── Body Copy ── */
+.index-hero-section .index-hero-body {
+  font-family: 'Manrope', 'Avenir Next', sans-serif;
+  font-size: 15px !important;
+  font-weight: 400;
+  line-height: 1.75;
+  color: rgba(255, 253, 249, 0.82);
+  margin: 0 0 40px;
+  max-width: 580px;
+  text-shadow: 0 1px 8px rgba(44, 41, 38, 0.4);
+}
+
+/* ── CTAs ── */
+.index-hero-section .index-hero-ctas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.index-hero-section .index-hero-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #F3CF7D 0%, #C99A2E 100%);
+  color: #2C2926;
+  font-family: 'Manrope', 'Avenir Next', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  padding: 14px 32px;
+  border-radius: 4px;
+  border: none;
+  text-decoration: none;
+  box-shadow: 0 8px 28px rgba(184, 138, 59, 0.38), 0 0 0 1px rgba(240, 197, 106, 0.2);
+  transition: all 0.35s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.index-hero-section .index-hero-btn-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 36px rgba(184, 138, 59, 0.5), 0 0 0 1px rgba(240, 197, 106, 0.35);
+  color: #2C2926;
+}
+
+.index-hero-section .index-hero-btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  color: var(--text-light);
+  font-family: 'Manrope', 'Avenir Next', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  padding: 14px 24px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 253, 249, 0.3);
+  text-decoration: none;
+  transition: all 0.35s ease;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.index-hero-section .index-hero-btn-ghost:hover {
+  background: rgba(255, 253, 249, 0.08);
+  border-color: rgba(255, 253, 249, 0.55);
+  color: var(--text-light);
+  transform: translateY(-2px);
+}
+
+.index-hero-section .index-hero-arrow {
+  font-size: 16px;
+  line-height: 1;
+  display: inline-block;
+  transition: transform 0.25s ease;
+}
+
+.index-hero-section .index-hero-btn-ghost:hover .index-hero-arrow {
+  transform: translateX(-4px);
+}
+
+/* ── Bottom Divider ── */
+.index-hero-section .index-hero-divider-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  pointer-events: none;
+  z-index: 5;
+}
+
+.index-hero-section .index-hero-divider-wrapper svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* ── Mobile ── */
+@media (max-width: 768px) {
+  .index-hero-section {
+    min-height: 100svh;
+    align-items: flex-start;
+    padding-bottom: 80px;
+  }
+
+  .index-hero-section .index-hero-scrim {
+    background-image:
+      linear-gradient(180deg,
+        rgba(44, 41, 38, 0.88) 0%,
+        rgba(44, 41, 38, 0.82) 50%,
+        rgba(44, 41, 38, 0.72) 100%
+      );
+  }
+
+  .index-hero-section .index-hero-content {
+    padding: 110px 20px 40px;
+  }
+
+  .index-hero-section .index-hero-inner {
+    max-width: 100%;
+  }
+
+  .index-hero-section .index-hero-h1 {
+    font-size: clamp(42px, 11vw, 60px);
+  }
+
+  .index-hero-section .index-hero-h3 {
+    font-size: 18px;
+  }
+
+  .index-hero-section .index-hero-body {
+    font-size: 14px !important;
+    max-width: 100%;
+  }
+
+  .index-hero-section .index-hero-ctas {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .index-hero-section .index-hero-btn-primary,
+  .index-hero-section .index-hero-btn-ghost {
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .index-hero-section .index-hero-label {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1200px) {
+  .index-hero-section .index-hero-content {
+    padding-top: 180px;
+    padding-inline-start: 80px;
+    padding-inline-end: 80px;
+  }
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="zappy-dropdown-submenu-styles">
@@ -787,53 +1100,53 @@
 
 
 
-<section id="hero" class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim">
+<section class="index-hero-section" data-layout-spec="בית-hero" dir="rtl" data-hero-type="fullscreen-scrim" data-zappy-section="true" id="hero">
   <!-- Background Image -->
-  <div class="index-hero-bg">
-    
+  <div class="index-hero-bg" data-preserve-bg="0" style="background-size: cover; background-position: center; min-height: 100vh;">
+    <img data-hero-bg="true" data-placeholder="index-hero-image-1" data-context="Cinematic full-bleed editorial photograph: a mature, powerful man in his 50s standing at the edge of a dramatic Nordic cliff or dark forest clearing at dawn. He faces forward with calm, sovereign composure. Soft purple-gold morning light filters through mist. The atmosphere is quiet strength — not aggressive. Deep shadows, warm gold highlights on his face and shoulders. Mood: transformation, inner command, neuroscience meets ancient wisdom. Dark tones with plum and amber accents. Ultra-premium editorial quality." width="1440" height="900" src="" alt="Viking Code — ליווי אישי מבוסס מדעי המוח" class="index-hero-img-bg" style="object-fit: cover; object-position: center;">
   </div>
 
   <!-- Scrim Overlay -->
   <div class="index-hero-scrim" aria-hidden="true"></div>
 
+  <!-- Gold Grain Texture -->
+  <div class="index-hero-texture" aria-hidden="true"></div>
+
   <!-- Content -->
-  <div class="index-hero-container">
-    <div class="index-hero-card">
+  <div class="index-hero-content">
+    <div class="index-hero-inner">
 
       <!-- Label -->
-      <p><span class="index-hero-label">Viking Code — ליווי אישי מבוסס מדעי המוח</span>
+      <div class="index-hero-label">
+        <span class="index-hero-label-line" aria-hidden="true"></span>
+        <span class="index-hero-label-text">20 שנות עבודה בשינוי עומק מבוסס עקרונות מדעי המוח והרוח</span>
+      </div>
 
-      
-      </p><!-- H1 --><h1 class="index-hero-h1" >מהישרדות<br>לשליטה</h1>
+      <!-- Main Headline -->
+      <h1 class="index-hero-h1">מהישרדות<br><span class="index-hero-h1-accent">לשליטה</span></h1>
 
-      <!-- H3 Subtitle -->
-      <h3 class="index-hero-h3" >להפוך את הסערה בחוץ למנוע שלך.<br>ביצועי קצה- בלי מס הצלחה.</h3><div class="zappy-inserted-element" id="zappy-element-1775811146694-atprixk4n" data-element-id="zappy-element-1775811146694-atprixk4n" data-element-type="paragraph" style="width: 100%;"><p style="font-size: 1rem; max-width: none; margin-left: auto; margin-right: auto;" data-element-type="paragraph" data-element-id="zappy-element-1775811146694-atprixk4n" id="zappy-element-1775811146694-atprixk4n"><font color="#ffffff">הבוקר שלך מתחיל, ואיתו מגיעות הסערות: <br>מהומה בבית, כותרות מלחיצות, או ציפיות שדורשים ממך דריכות מקסימלית עוד לפני הקפה הראשון. <br>עבור רוב האנשים, הרעשים האלו הם הפרעה. עבורך, הם הפכו למחסום שחונק את הפוטנציאל וגורם לפחדים לנהל את קבלת ההחלטות שלך.<br><br>הלחץ והמחשבות הטורדניות הם לא האויב שלך- הם פוטנציאל אנרגטי אדיר שמחכה לכיול. <br><br>ב-Viking Code, אנחנו לא מחפשים רוגע; אנחנו בונים ארכיטקטורה של שקט בלב הכאוס.<br><br>באמצעות ליווי אישי מבוסס עקרונות מדעי המוח המיועד למנהלים,&nbsp; בכירים, עצמאיים, אנשי קריירה, רופאים ואנשי קצה- <br>אנחנו הופכים את הסערה החיצונית למנוע דחיפה פנימי. <br><br>זהו המעבר מחיווט הישרדותי לשלשיטה פנימית ריבונות מוחלטת: שליטה בביצועים ללא הרעש הפנימי.<br></font></p></div>
+      <!-- Subtitle -->
+      <h3 class="index-hero-h3">להפוך את הסערה בחוץ למנוע שלך.<br>ביצועי קצה — בלי מס הצלחה.</h3>
 
-      <!-- Supporting paragraph -->
-      
+      <!-- Brand Line -->
+      <p class="index-hero-brand">Viking Code — ליווי אישי מבוסס מדעי המוח</p>
+
+      <!-- Body Copy -->
+      <p class="index-hero-body">הבוקר שלך מתחיל, ואיתו מגיעות הסערות: מהומה בבית, כותרות מלחיצות, או ציפיות שדורשים ממך דריכות מקסימלית עוד לפני הקפה הראשון. עבור רוב האנשים, הרעשים האלו הם הפרעה. עבורך, הם הפכו למחסום שחונק את הפוטנציאל וגורם לפחדים לנהל את קבלת ההחלטות שלך.<br><br>הלחץ והמחשבות הטורדניות הם לא האויב שלך — הם פוטנציאל אנרגטי אדיר שמחכה לכיול. ב-Viking Code, אנחנו לא מחפשים רוגע; אנחנו בונים ארכיטקטורה של שקט בלב הכאוס.<br><br>באמצעות ליווי אישי מבוסס עקרונות מדעי המוח המיועד למנהלים, בכירים, עצמאיים, אנשי קריירה, רופאים ואנשי קצה — אנחנו הופכים את הסערה החיצונית למנוע דחיפה פנימי. זהו המעבר מחיווט הישרדותי לשליטה פנימית וריבונות מוחלטת: שליטה בביצועים ללא הרעש הפנימי.</p>
 
       <!-- CTAs -->
       <div class="index-hero-ctas">
-        <a href="#contact" class="index-hero-btn-primary" data-element-type="button" data-element-id="btn-1775811035462-t2cuegp58" data-native-element="true">לאבחון דיאגנוסטי</a>
-        <a href="#how-it-works" class="index-hero-btn-secondary" data-element-type="button" data-element-id="btn-1775811035462-yfqp7a2t0" data-native-element="true">איך זה עובד</a>
-      </div>
-
-      <!-- Trust line -->
-      <div class="index-hero-trust">
-        <span class="index-hero-trust-dot" aria-hidden="true"></span>
-        <span >20 שנות עבודה בשינוי עומק מבוסס עקרונות מדעי המוח והרוח</span>
+        <a href="#contact" class="index-hero-btn-primary">לאבחון דיאגנוסטי</a>
+        <a href="#how-it-works" class="index-hero-btn-ghost">איך זה עובד <span class="index-hero-arrow" aria-hidden="true">←</span></a>
       </div>
 
     </div>
   </div>
 
-  <!-- Bottom Divider: torn-paper cream edge with gold contour -->
+  <!-- Bottom Divider -->
   <div class="index-hero-divider-wrapper">
-    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 90" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
-      <!-- Gold contour line -->
-      <path d="M0,42 Q60,34 120,44 T240,38 Q300,46 360,36 T480,42 Q540,34 600,44 T720,38 Q780,46 840,36 T960,42 Q1020,34 1080,44 T1200,38 Q1320,44 1440,40" fill="#F7F1EA" stroke="#B88A3B" stroke-width="1.2" opacity="0.7"></path>
-      <!-- Cream torn fill -->
-      <path d="M0,90 L0,44 Q60,36 120,46 T240,40 Q300,48 360,38 T480,44 Q540,36 600,46 T720,40 Q780,48 840,38 T960,44 Q1020,36 1080,46 T1200,40 Q1320,46 1440,42 L1440,90 Z" fill="#F7F1EA"></path>
+    <svg data-no-icon-edit="true" aria-hidden="true" viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,80 L0,52 Q120,38 240,50 T480,44 Q600,52 720,42 T960,48 Q1080,54 1200,44 T1440,50 L1440,80 Z" fill="#F7F1EA"></path>
     </svg>
   </div>
 

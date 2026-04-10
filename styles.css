@@ -6157,6 +6157,65 @@ body.accessibility-widget-visible ._access-menu {
   white-space: nowrap;
 }
 
+.navbar .nav-menu {
+  gap: 0 !important;
+  flex-wrap: nowrap !important;
+}
+
+.navbar .nav-menu li a {
+  font-size: 0.75rem !important;
+  padding: 4px 4px !important;
+  white-space: nowrap !important;
+  letter-spacing: -0.02em !important;
+}
+
+@media (min-width: 769px) {
+.nav-container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+}
+
+.nav-right-group {
+  display: flex !important;
+  align-items: center !important;
+  flex: 1 !important;
+  min-width: 0 !important;
+  overflow: visible !important;
+}
+
+.navbar .nav-menu {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  gap: 0 !important;
+  flex-shrink: 1 !important;
+  min-width: 0 !important;
+}
+
+.navbar .nav-menu li {
+  flex-shrink: 1 !important;
+  min-width: 0 !important;
+}
+
+.navbar .nav-menu li a {
+  font-size: 0.78rem !important;
+  padding: 4px 5px !important;
+  white-space: nowrap !important;
+  display: block !important;
+}
+
+.nav-brand {
+  flex-shrink: 0 !important;
+  margin-left: 12px !important;
+}
+
+.nav-cta-container {
+  flex-shrink: 0 !important;
+}
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */

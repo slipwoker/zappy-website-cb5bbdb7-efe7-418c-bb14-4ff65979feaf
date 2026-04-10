@@ -2873,7 +2873,6 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   transform: translateY(-2px);
 }
 
-/* ── Trust Line ── */
 .index-hero-section .index-hero-trust {
   display: flex;
   flex-direction: row;
@@ -2885,6 +2884,14 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   letter-spacing: 0.08em;
   color: rgba(255, 253, 249, 0.55);
   text-transform: uppercase;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 90px;
+  height: 90px;
+  border-radius: 12px;
+  text-align: center;
+  padding: 10px;
 }
 
 .index-hero-section .index-hero-trust-dot {

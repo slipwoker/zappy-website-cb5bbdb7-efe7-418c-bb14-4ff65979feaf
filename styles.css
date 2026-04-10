@@ -3184,14 +3184,13 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   }
 }
 
-/* index-benefits */
 .index-benefits-section {
   position: relative;
   overflow: visible;
   background-color: #F3EDE3;
   background-image: linear-gradient(180deg, #FBF6F0 0%, #EFE4D7 100%);
   color: var(--text-dark);
-  padding: 96px 0 72px;
+  padding: 67px 0 50px;
   direction: rtl;
 }
 

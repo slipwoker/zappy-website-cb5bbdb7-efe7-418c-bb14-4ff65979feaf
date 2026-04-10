@@ -6147,6 +6147,16 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
+.navbar .nav-menu {
+  gap: 4px;
+}
+
+.navbar .nav-menu li a {
+  font-size: 0.82rem;
+  padding: 4px 6px;
+  white-space: nowrap;
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */

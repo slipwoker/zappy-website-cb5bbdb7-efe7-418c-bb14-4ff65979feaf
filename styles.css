@@ -6219,17 +6219,19 @@ body.accessibility-widget-visible ._access-menu {
 .index-story-section .index-story-portrait-col {
   gap: 0 !important;
 }
+
+
 /* Zappy custom logo size (desktop only — mobile stays at 110px/35px) */
 @media (min-width: 769px) {
   .logo, img.logo, .logo img, .logo-link img, .nav-brand img {
-    max-height: none !important;
-    height: 52px !important;
-    max-width: 208px !important;
+    max-height: 40px !important;
+    height: auto !important;
+    max-width: 160px !important;
     width: auto !important;
     object-fit: contain !important;
   }
   .nav-container {
-    min-height: 82px !important;
+    min-height: 70px !important;
   }
 }
 /* /Zappy custom logo size */

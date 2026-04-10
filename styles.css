@@ -5849,6 +5849,304 @@ body.accessibility-widget-visible ._access-menu {
   }
 }
 
+/* Added Component Styles */
+/* ===== FAQ SECTION — Viking Code ===== */
+.vc-faq-section {
+  background: var(--gradient-primary, linear-gradient(180deg, #5B3A71 0%, #41274E 100%));
+  padding: 90px 20px;
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+  text-align: right;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Decorative background orb */
+.vc-faq-section::before {
+  content: '';
+  position: absolute;
+  top: -120px;
+  left: -120px;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, rgba(111, 74, 166, 0.35) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.vc-faq-section::after {
+  content: '';
+  position: absolute;
+  bottom: -100px;
+  right: -100px;
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, rgba(111, 74, 166, 0.25) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+/* Container */
+.vc-faq-container {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* Header */
+.vc-faq-header {
+  text-align: center;
+  margin-bottom: 52px;
+}
+
+.vc-faq-badge {
+  display: inline-block;
+  background: rgba(111, 74, 166, 0.45);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  color: #e8d9ff;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  padding: 6px 18px;
+  border-radius: 50px;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.vc-faq-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 14px 0;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.vc-faq-subtitle {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.72);
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* FAQ List */
+.vc-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* FAQ Item — card */
+.vc-faq-item {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.18);
+  overflow: hidden;
+  transition: box-shadow 0.28s ease, transform 0.22s ease, background 0.22s ease;
+}
+
+.vc-faq-item:hover {
+  background: rgba(255, 255, 255, 0.13);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
+  transform: translateY(-2px);
+}
+
+.vc-faq-item.active {
+  background: rgba(255, 255, 255, 0.13);
+  border-color: rgba(200, 170, 255, 0.4);
+  box-shadow: 0 8px 32px rgba(111, 74, 166, 0.35);
+}
+
+/* Question Button */
+.vc-faq-question {
+  width: 100%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 22px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  text-align: right;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  transition: background 0.2s ease;
+}
+
+.vc-faq-question:focus-visible {
+  outline: 2px solid rgba(200, 170, 255, 0.8);
+  outline-offset: -2px;
+  border-radius: 12px;
+}
+
+.vc-faq-question-text {
+  font-size: 17px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.4;
+  flex: 1;
+}
+
+/* Chevron */
+.vc-faq-chevron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(111, 74, 166, 0.4);
+  color: #e8d9ff;
+  transition: transform 0.32s cubic-bezier(0.4, 0, 0.2, 1), background 0.22s ease;
+}
+
+.vc-faq-item.active .vc-faq-chevron {
+  transform: rotate(180deg);
+  background: rgba(111, 74, 166, 0.7);
+}
+
+/* Answer — collapsed by default */
+.vc-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  padding: 0 24px;
+  transition: max-height 0.38s ease, opacity 0.28s ease, padding 0.28s ease;
+}
+
+/* Answer — expanded */
+.vc-faq-item.active .vc-faq-answer {
+  max-height: 500px;
+  opacity: 1;
+  padding-top: 0;
+  padding-bottom: 22px;
+}
+
+/* Answer inner content */
+.vc-faq-answer-inner {
+  border-right: 3px solid var(--primary, #6F4AA6);
+  padding-right: 16px;
+  padding-left: 4px;
+  font-size: 15.5px;
+  line-height: 1.75;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* CTA block */
+.vc-faq-cta {
+  margin-top: 52px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.vc-faq-cta-text {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0;
+  font-weight: 500;
+}
+
+.vc-faq-cta-btn {
+  display: inline-block;
+  background: #ffffff;
+  color: var(--primary, #6F4AA6);
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 14px 38px;
+  border-radius: 50px;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: background 0.22s ease, color 0.22s ease, transform 0.18s ease, box-shadow 0.22s ease;
+}
+
+.vc-faq-cta-btn:hover {
+  background: #e8d9ff;
+  color: #41274E;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
+}
+
+.vc-faq-cta-btn:focus-visible {
+  outline: 3px solid rgba(255, 255, 255, 0.7);
+  outline-offset: 3px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .vc-faq-section {
+    padding: 64px 16px;
+  }
+
+  .vc-faq-title {
+    font-size: 1.85rem;
+  }
+
+  .vc-faq-subtitle {
+    font-size: 0.97rem;
+  }
+
+  .vc-faq-question {
+    padding: 18px 18px;
+  }
+
+  .vc-faq-question-text {
+    font-size: 15.5px;
+  }
+
+  .vc-faq-answer {
+    padding: 0 18px;
+  }
+
+  .vc-faq-item.active .vc-faq-answer {
+    padding-bottom: 18px;
+  }
+
+  .vc-faq-answer-inner {
+    font-size: 14.5px;
+  }
+
+  .vc-faq-header {
+    margin-bottom: 36px;
+  }
+
+  .vc-faq-list {
+    gap: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .vc-faq-title {
+    font-size: 1.6rem;
+  }
+
+  .vc-faq-badge {
+    font-size: 11px;
+    padding: 5px 14px;
+  }
+
+  .vc-faq-chevron {
+    width: 28px;
+    height: 28px;
+  }
+
+  .vc-faq-cta-btn {
+    padding: 13px 30px;
+    font-size: 15px;
+  }
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */

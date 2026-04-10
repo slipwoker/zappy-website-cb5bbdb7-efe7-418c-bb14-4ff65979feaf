@@ -6430,6 +6430,20 @@ body.accessibility-widget-visible ._access-menu {
 }
 }
 
+.index-hero-section .index-hero-btn-primary {
+  background-color: var(--secondary) !important;
+  background-image: none !important;
+  border-color: var(--secondary) !important;
+  color: #ffffff !important;
+}
+
+.index-hero-section .index-hero-btn-secondary {
+  background-color: transparent !important;
+  background-image: none !important;
+  border: 2px solid #ffffff !important;
+  color: #ffffff !important;
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */

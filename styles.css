@@ -2736,19 +2736,17 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   padding-top: 90px;
 }
 
-/* ── Frosted Card ── */
 .index-hero-section .index-hero-card {
   position: relative;
   max-width: 520px;
   width: 100%;
-  background: rgba(255, 253, 249, 0.09);
+  background: rgba(20, 12, 30, 0.52);
   backdrop-filter: blur(18px) saturate(1.4);
   -webkit-backdrop-filter: blur(18px) saturate(1.4);
   border: 1px solid rgba(184, 138, 59, 0.38);
   border-radius: 16px;
   padding: 48px 44px 44px;
-  box-shadow:
-    0 14px 34px rgba(74, 47, 93, 0.32),
+  box-shadow: 0 14px 34px rgba(74, 47, 93, 0.32),
     inset 0 1px 0 rgba(255, 255, 255, 0.14);
   text-align: right;
   margin-block-start: 0;

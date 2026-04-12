@@ -5,21 +5,21 @@
 ## Pages
 
 ### בית
-https://viking-code.zappy5.app
+https://www.mentaldna.co.il
 Viking Code is a neuroscience-based personal performance coaching brand founded by a practitioner with 20 years of experience. The brand blends masculine streng
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://viking-code.zappy5.app/privacy
+https://www.mentaldna.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://viking-code.zappy5.app/terms
+https://www.mentaldna.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://viking-code.zappy5.app/accessibility
+https://www.mentaldna.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -31,5 +31,5 @@ Information about WCAG compliance and accessibility features.
 
 # Additional Resources
 
-- **Sitemap**: https://viking-code.zappy5.app/sitemap.xml
-- **Robots.txt**: https://viking-code.zappy5.app/robots.txt
+- **Sitemap**: https://www.mentaldna.co.il/sitemap.xml
+- **Robots.txt**: https://www.mentaldna.co.il/robots.txt

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://viking-code.zappy5.app/sitemap.xml
+Sitemap: https://www.mentaldna.co.il/sitemap.xml

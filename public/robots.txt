@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.mentaldna.co.il/sitemap.xml
+Sitemap: https://zappy-site-cb5bbdb7-efe7-418c-bb14.onrender.com/sitemap.xml

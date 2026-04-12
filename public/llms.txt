@@ -5,21 +5,21 @@
 ## Pages
 
 ### בית
-https://zappy-site-cb5bbdb7-efe7-418c-bb14.onrender.com
+https://viking-code.co.il
 Viking Code is a neuroscience-based personal performance coaching brand founded by a practitioner with 20 years of experience. The brand blends masculine streng
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://zappy-site-cb5bbdb7-efe7-418c-bb14.onrender.com/privacy
+https://viking-code.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://zappy-site-cb5bbdb7-efe7-418c-bb14.onrender.com/terms
+https://viking-code.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://zappy-site-cb5bbdb7-efe7-418c-bb14.onrender.com/accessibility
+https://viking-code.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
@@ -31,5 +31,5 @@ Information about WCAG compliance and accessibility features.
 
 # Additional Resources
 
-- **Sitemap**: https://zappy-site-cb5bbdb7-efe7-418c-bb14.onrender.com/sitemap.xml
-- **Robots.txt**: https://zappy-site-cb5bbdb7-efe7-418c-bb14.onrender.com/robots.txt
+- **Sitemap**: https://viking-code.co.il/sitemap.xml
+- **Robots.txt**: https://viking-code.co.il/robots.txt

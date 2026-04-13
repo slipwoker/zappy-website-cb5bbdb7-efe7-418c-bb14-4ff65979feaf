@@ -6727,6 +6727,14 @@ body.accessibility-widget-visible ._access-menu {
   text-align: center !important;
 }
 
+.index-hero-section #zappy-element-1776072661777-9qrj81nib img {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+  border-radius: 8px;
+  display: block !important;
+}
+
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */
 .sub-menu:empty,
 .dropdown-menu:empty,

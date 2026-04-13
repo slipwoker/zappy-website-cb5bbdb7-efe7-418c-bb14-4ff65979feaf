@@ -6973,6 +6973,10 @@ nav.navbar .sub-menu li a {
   color: #ffffff !important;
 }
 
+.index-benefits-section .index-benefits-intro > div h2 {
+  font-size: 0.72rem !important;
+}
+
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */
 .sub-menu:empty,
 .dropdown-menu:empty,

@@ -6691,11 +6691,14 @@ body.accessibility-widget-visible ._access-menu {
 
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */
 .sub-menu:empty,
-.dropdown-menu:empty {
-  display: none !important;
-}
+.dropdown-menu:empty,
 .sub-menu.zappy-empty-submenu,
-.dropdown-menu.zappy-empty-submenu {
+.dropdown-menu.zappy-empty-submenu,
+.nav-menu .sub-menu.zappy-empty-submenu,
+nav .sub-menu.zappy-empty-submenu,
+.navbar .sub-menu.zappy-empty-submenu,
+#navMenu .sub-menu.zappy-empty-submenu,
+#navMenu .dropdown-menu.zappy-empty-submenu {
   display: none !important;
 }
 

@@ -6453,6 +6453,45 @@ body.accessibility-widget-visible ._access-menu {
   fill: #000000 !important;
 }
 
+.index-hero-section .index-hero-body-text {
+  background: rgba(20, 12, 30, 0.62);
+  backdrop-filter: blur(12px);
+  border-radius: 14px;
+  padding: 32px 36px;
+  border: 1px solid rgba(184, 138, 59, 0.22);
+}
+
+.index-hero-section .index-hero-body-text p {
+  margin-bottom: 16px;
+  color: rgba(255, 253, 249, 0.88);
+}
+
+.index-hero-section .index-hero-body-text p:last-child {
+  margin-bottom: 0;
+}
+
+.index-hero-section .index-hero-body-text strong {
+  color: var(--secondary);
+}
+
+.index-hero-section .index-hero-image-placeholder {
+  background: rgba(28, 18, 40, 0.45) !important;
+  border: 2px dashed rgba(184, 138, 59, 0.5) !important;
+}
+
+.index-hero-section .index-hero-container--stacked .index-hero-h1 {
+  text-shadow: 0 2px 28px rgba(0,0,0,0.7);
+}
+
+.index-hero-section .index-hero-container--stacked .index-hero-h3 {
+  text-shadow: 0 1px 14px rgba(0,0,0,0.6);
+}
+
+.index-hero-section .index-hero-container--stacked .index-hero-label {
+  display: block;
+  text-align: center;
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */

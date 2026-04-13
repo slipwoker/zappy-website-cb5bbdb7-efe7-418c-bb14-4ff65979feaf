@@ -6519,6 +6519,17 @@ body.accessibility-widget-visible ._access-menu {
 }
 }
 
+/* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */
+.sub-menu:empty,
+.dropdown-menu:empty {
+  display: none !important;
+}
+.sub-menu.zappy-empty-submenu,
+.dropdown-menu.zappy-empty-submenu {
+  display: none !important;
+}
+
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */

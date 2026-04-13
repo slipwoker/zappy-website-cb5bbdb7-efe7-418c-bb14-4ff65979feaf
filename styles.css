@@ -6492,6 +6492,11 @@ body.accessibility-widget-visible ._access-menu {
   text-align: center;
 }
 
+.index-hero-section .index-hero-body-text {
+  background-color: rgba(10, 5, 18, 0.96) !important;
+  border: 1px solid rgba(184, 138, 59, 0.45) !important;
+}
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */

@@ -6689,6 +6689,44 @@ body.accessibility-widget-visible ._access-menu {
 }
 }
 
+.index-hero-section .index-hero-container--split {
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.index-hero-section .index-hero-text-col {
+  width: 100% !important;
+  max-width: 760px !important;
+  margin: 0 auto !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.index-hero-section .index-hero-h1 {
+  text-align: center !important;
+}
+
+.index-hero-section h2 {
+  text-align: center !important;
+}
+
+.index-hero-section .index-hero-body-text {
+  text-align: right !important;
+  max-width: 760px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.index-hero-section .index-hero-ctas {
+  justify-content: center !important;
+  width: 100% !important;
+}
+
+.index-hero-section p {
+  text-align: center !important;
+}
+
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */
 .sub-menu:empty,
 .dropdown-menu:empty,

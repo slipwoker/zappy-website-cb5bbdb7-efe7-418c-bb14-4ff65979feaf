@@ -6733,14 +6733,11 @@ body.accessibility-widget-visible ._access-menu {
     min-height: 100px !important;
   }
 }
-/* /Zappy custom logo size */
-
-
 .navbar .nav-cta-btn {
-  background: linear-gradient(135deg, var(--secondary-color) 0%, #D3A12F 50%, var(--secondary-color) 100%) !important;
-  background-color: var(--secondary-color) !important;
+  background: linear-gradient(135deg, #B88A3B 0%, #D3A12F 50%, #B88A3B 100%) !important;
+  background-color: #B88A3B !important;
   color: #ffffff !important;
-  border-color: var(--secondary-color) !important;
+  border-color: #B88A3B !important;
 }
 
 .navbar .nav-cta-btn:hover {

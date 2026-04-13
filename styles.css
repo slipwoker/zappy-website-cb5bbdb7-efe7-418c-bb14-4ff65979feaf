@@ -2768,11 +2768,10 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   z-index: 1;
 }
 
-/* ── Label ── */
 .index-hero-section .index-hero-label {
   display: inline-block;
   font-family: 'Rubik', sans-serif;
-  font-size: 10px;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;

@@ -6992,6 +6992,37 @@ nav.navbar .sub-menu li a {
   top: 0 !important;
 }
 
+@media (max-width: 768px) {
+.index-hero-section #zappy-element-1776072661777-9qrj81nib {
+  margin-top: 0 !important;
+  margin-bottom: 8px !important;
+}
+
+.index-hero-section .index-hero-text-col {
+  padding-top: 0 !important;
+  gap: 0 !important;
+}
+
+.index-hero-section .index-hero-container {
+  padding-top: 70px !important;
+  gap: 12px !important;
+}
+}
+
+@media (max-width: 768px) {
+.index-hero-section .index-hero-text-col h2 {
+  margin-bottom: 8px !important;
+}
+
+.index-hero-section .index-hero-text-col h1 {
+  margin-bottom: 8px !important;
+}
+
+.index-hero-section .index-hero-text-col > p:first-child {
+  margin-bottom: 4px !important;
+}
+}
+
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */
 .sub-menu:empty,
 .dropdown-menu:empty,

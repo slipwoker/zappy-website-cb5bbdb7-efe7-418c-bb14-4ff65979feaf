@@ -7600,6 +7600,35 @@ nav.navbar .sub-menu li a {
   text-align: center !important;
 }
 
+.vc-faq-section .vc-faq-header {
+  text-align: right !important;
+}
+
+.vc-faq-section .vc-faq-eyebrow {
+  text-align: right !important;
+  display: block !important;
+}
+
+.vc-faq-section .vc-faq-title {
+  text-align: right !important;
+}
+
+.vc-faq-section .vc-faq-subtitle {
+  text-align: right !important;
+}
+
+.vc-faq-section .vc-faq-header p {
+  text-align: right !important;
+}
+
+.vc-faq-section .vc-faq-header,
+.vc-faq-section .vc-faq-header p,
+.vc-faq-section .vc-faq-title,
+.vc-faq-section .vc-faq-subtitle,
+.vc-faq-section .vc-faq-eyebrow {
+  text-align: right !important;
+}
+
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */
 .sub-menu:empty,
 .dropdown-menu:empty,

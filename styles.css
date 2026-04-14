@@ -7548,6 +7548,11 @@ nav.navbar .sub-menu li a {
   margin-top: 48px !important;
 }
 
+.site-footer .footer-social .social-link i.fa-instagram {
+  color: var(--accent-color) !important;
+  font-size: 16px !important;
+}
+
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */
 .sub-menu:empty,
 .dropdown-menu:empty,

@@ -7581,6 +7581,16 @@ nav.navbar .sub-menu li a {
   text-decoration: none !important;
 }
 
+.vc-faq-section .vc-faq-header {
+  text-align: center !important;
+}
+
+.vc-faq-section .vc-faq-header p,
+.vc-faq-section .vc-faq-title,
+.vc-faq-section .vc-faq-subtitle {
+  text-align: center !important;
+}
+
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */
 .sub-menu:empty,
 .dropdown-menu:empty,

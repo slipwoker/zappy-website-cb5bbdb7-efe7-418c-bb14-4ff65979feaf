@@ -7065,6 +7065,57 @@ nav.navbar .sub-menu li a {
   display: none !important;
 }
 
+@media (max-width: 768px) {
+.index-benefits-section .index-benefits-inner {
+  grid-template-columns: 1fr !important;
+  gap: 24px !important;
+}
+
+.index-benefits-section .index-benefits-grid {
+  grid-template-columns: 1fr 1fr !important;
+  gap: 12px !important;
+}
+
+.index-benefits-section .index-benefits-intro > div[style*="margin-top: 28px"] {
+  margin-top: 16px !important;
+}
+
+.index-benefits-section .index-benefits-intro > div[style*="margin-top: 28px"] h2 {
+  font-size: 1.4rem !important;
+  line-height: 1.5 !important;
+}
+
+.index-benefits-section [data-grid-item-index="1"] {
+  width: 100% !important;
+  min-width: 0 !important;
+}
+}
+
+@media (max-width: 768px) {
+.index-benefits-section .index-benefits-inner {
+  grid-template-columns: 1fr !important;
+  gap: 28px !important;
+  padding: 0 16px !important;
+}
+
+.index-benefits-section .index-benefits-grid {
+  grid-template-columns: 1fr 1fr !important;
+  gap: 10px !important;
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+.index-benefits-section .index-benefits-intro {
+  width: 100% !important;
+  min-width: 0 !important;
+}
+
+.index-benefits-section [data-grid-item-index="1"].index-benefits-grid {
+  grid-column: 1 !important;
+  width: 100% !important;
+}
+}
+
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */
 .sub-menu:empty,
 .dropdown-menu:empty,

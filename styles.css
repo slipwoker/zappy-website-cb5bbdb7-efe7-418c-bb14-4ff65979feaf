@@ -2778,6 +2778,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   color: var(--secondary);
   margin-block-end: 20px;
   opacity: 0.92;
+  margin-block-start: 32px;
 }
 
 /* ── H1 ── */

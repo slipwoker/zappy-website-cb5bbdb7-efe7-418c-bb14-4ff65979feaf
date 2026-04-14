@@ -7228,6 +7228,10 @@ nav.navbar .sub-menu li a {
   border-radius: 8px !important;
 }
 
+.index-hero-section .index-hero-body-text {
+  background-color: #2C1F3D !important;
+}
+
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */
 .sub-menu:empty,
 .dropdown-menu:empty,

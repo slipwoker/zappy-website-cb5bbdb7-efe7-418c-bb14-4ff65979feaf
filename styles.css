@@ -7239,6 +7239,311 @@ nav.navbar .sub-menu li a {
   fill: #1C1228 !important;
 }
 
+/* AI-generated section */
+/* =============================================
+   VIKING CODE — FAQ SECTION
+   Dark elegant purple/gold theme, RTL Hebrew
+   ============================================= */
+
+.vc-faq-section {
+  background: #1C1228;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 50% 0%, rgba(111, 74, 166, 0.22) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 40% at 80% 100%, rgba(91, 58, 113, 0.18) 0%, transparent 60%);
+  padding: 100px 20px 110px;
+  font-family: system-ui, sans-serif;
+  direction: rtl;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Subtle decorative border top */
+.vc-faq-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(184, 138, 59, 0.45), transparent);
+}
+
+/* ---- Container ---- */
+.vc-faq-container {
+  max-width: 860px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* ---- Header ---- */
+.vc-faq-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.vc-faq-eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: #B88A3B;
+  background: rgba(184, 138, 59, 0.12);
+  border: 1px solid rgba(184, 138, 59, 0.35);
+  border-radius: 50px;
+  padding: 5px 18px;
+  margin-bottom: 18px;
+}
+
+.vc-faq-title {
+  font-size: clamp(2rem, 5vw, 2.9rem);
+  font-weight: 800;
+  color: #F0E6D3;
+  margin: 0 0 16px;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.vc-faq-subtitle {
+  font-size: 1.05rem;
+  color: rgba(220, 200, 255, 0.62);
+  margin: 0;
+  line-height: 1.6;
+  max-width: 520px;
+  margin-inline: auto;
+}
+
+/* ---- FAQ List ---- */
+.vc-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* ---- FAQ Item Card ---- */
+.vc-faq-item {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(111, 74, 166, 0.38);
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.28), 0 1px 0 rgba(255,255,255,0.04) inset;
+  overflow: hidden;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.2s ease;
+}
+
+.vc-faq-item:hover {
+  border-color: rgba(184, 138, 59, 0.5);
+  box-shadow: 0 8px 36px rgba(0, 0, 0, 0.38), 0 0 0 1px rgba(184, 138, 59, 0.12);
+  transform: translateY(-2px);
+}
+
+.vc-faq-item.vc-active {
+  border-color: rgba(184, 138, 59, 0.65);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.42), 0 0 0 1px rgba(184, 138, 59, 0.18);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+/* ---- Question Button ---- */
+.vc-faq-question {
+  width: 100%;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 22px 26px;
+  text-align: right;
+  direction: rtl;
+  font-family: system-ui, sans-serif;
+  transition: background 0.2s ease;
+}
+
+.vc-faq-question:hover {
+  background: rgba(184, 138, 59, 0.07);
+}
+
+.vc-faq-question:focus-visible {
+  outline: 2px solid #B88A3B;
+  outline-offset: -2px;
+  border-radius: 14px;
+}
+
+.vc-faq-question-text {
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: #F0E6D3;
+  line-height: 1.4;
+  flex: 1;
+  text-align: right;
+}
+
+/* ---- Chevron Icon ---- */
+.vc-faq-chevron {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(184, 138, 59, 0.1);
+  border: 1px solid rgba(184, 138, 59, 0.28);
+  color: #B88A3B;
+  transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), background 0.25s ease, border-color 0.25s ease;
+}
+
+.vc-faq-item.vc-active .vc-faq-chevron {
+  transform: rotate(180deg);
+  background: rgba(184, 138, 59, 0.2);
+  border-color: rgba(184, 138, 59, 0.55);
+}
+
+/* ---- Answer Panel ---- */
+.vc-faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition:
+    max-height 0.38s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 0.28s ease,
+    padding 0.25s ease;
+  padding: 0 26px;
+}
+
+.vc-faq-item.vc-active .vc-faq-answer {
+  max-height: 500px;
+  opacity: 1;
+  padding-bottom: 22px;
+}
+
+/* ---- Answer Inner ---- */
+.vc-faq-answer-inner {
+  border-right: 3px solid #B88A3B;
+  padding-right: 18px;
+  padding-top: 4px;
+  color: rgba(220, 200, 255, 0.82);
+  font-size: 0.97rem;
+  line-height: 1.8;
+  font-weight: 400;
+}
+
+/* ---- Decorative bottom border ---- */
+.vc-faq-section::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(111, 74, 166, 0.4), transparent);
+}
+
+/* =============================================
+   RESPONSIVE — TABLET
+   ============================================= */
+@media (max-width: 768px) {
+  .vc-faq-section {
+    padding: 70px 16px 80px;
+  }
+
+  .vc-faq-header {
+    margin-bottom: 44px;
+  }
+
+  .vc-faq-title {
+    font-size: 1.85rem;
+  }
+
+  .vc-faq-subtitle {
+    font-size: 0.97rem;
+  }
+
+  .vc-faq-question {
+    padding: 18px 20px;
+  }
+
+  .vc-faq-question-text {
+    font-size: 1rem;
+  }
+
+  .vc-faq-answer {
+    padding: 0 20px;
+  }
+
+  .vc-faq-item.vc-active .vc-faq-answer {
+    padding-bottom: 18px;
+  }
+
+  .vc-faq-answer-inner {
+    font-size: 0.93rem;
+  }
+}
+
+/* =============================================
+   RESPONSIVE — MOBILE
+   ============================================= */
+@media (max-width: 480px) {
+  .vc-faq-section {
+    padding: 56px 12px 64px;
+  }
+
+  .vc-faq-header {
+    margin-bottom: 36px;
+  }
+
+  .vc-faq-title {
+    font-size: 1.6rem;
+  }
+
+  .vc-faq-eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.24em;
+  }
+
+  .vc-faq-question {
+    padding: 16px 16px;
+    gap: 12px;
+  }
+
+  .vc-faq-question-text {
+    font-size: 0.95rem;
+  }
+
+  .vc-faq-chevron {
+    width: 30px;
+    height: 30px;
+  }
+
+  .vc-faq-chevron svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .vc-faq-answer {
+    padding: 0 16px;
+  }
+
+  .vc-faq-item.vc-active .vc-faq-answer {
+    padding-bottom: 16px;
+  }
+
+  .vc-faq-answer-inner {
+    font-size: 0.91rem;
+    padding-right: 14px;
+  }
+
+  .vc-faq-list {
+    gap: 12px;
+  }
+}
+
+.vc-faq-section {
+  background: linear-gradient(180deg, #1C1228 0%, #2C1F3D 100%);
+  padding: 80px 32px;
+  direction: rtl;
+}
+
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */
 .sub-menu:empty,
 .dropdown-menu:empty,

@@ -2776,9 +2776,9 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--secondary);
-  margin-block-end: 20px;
+  margin-block-end: 8px;
   opacity: 0.92;
-  margin-block-start: 32px;
+  margin-block-start: 8px;
 }
 
 /* ── H1 ── */

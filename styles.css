@@ -7553,6 +7553,34 @@ nav.navbar .sub-menu li a {
   font-size: 16px !important;
 }
 
+.site-footer .footer-contact li a[href*="email-protection"],
+.site-footer .footer-contact li a[href*="mailto"],
+.site-footer .footer-contact .contact-text a {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.site-footer .footer-social .social-link i.fa-instagram {
+  color: inherit !important;
+}
+
+.site-footer .footer-bottom span:not(.separator) {
+  color: inherit !important;
+}
+
+.site-footer a[href*="email-protection"],
+.site-footer a[href*="email-protection"]:focus,
+.site-footer a[href*="email-protection"]:active,
+.site-footer a[href*="email-protection"]:visited {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  text-decoration: none !important;
+}
+
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */
 .sub-menu:empty,
 .dropdown-menu:empty,

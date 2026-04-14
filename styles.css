@@ -7544,6 +7544,10 @@ nav.navbar .sub-menu li a {
   direction: rtl;
 }
 
+.index-hero-section .index-hero-label {
+  margin-top: 48px !important;
+}
+
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */
 .sub-menu:empty,
 .dropdown-menu:empty,

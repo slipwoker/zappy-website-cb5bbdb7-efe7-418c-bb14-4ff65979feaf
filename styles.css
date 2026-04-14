@@ -4604,8 +4604,8 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 
 .index-cta-section {
-  background-color: #000000;
-  background-image: radial-gradient(ellipse at 15% 50%, rgba(111,74,166,0.18) 0%, transparent 55%), radial-gradient(ellipse at 85% 20%, rgba(184,138,59,0.12) 0%, transparent 50%), linear-gradient(180deg, #000000 0%, #000000 100%);
+  background-color: #1C1228;
+  background-image: radial-gradient(ellipse at 15% 50%, rgba(111,74,166,0.35) 0%, transparent 55%), radial-gradient(ellipse at 85% 20%, rgba(184,138,59,0.12) 0%, transparent 50%), linear-gradient(180deg, #1C1228 0%, #2A1040 100%);
   color: var(--text-light);
   padding: 96px 24px;
   position: relative;

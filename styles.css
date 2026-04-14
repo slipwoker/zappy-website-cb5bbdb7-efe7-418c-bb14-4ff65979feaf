@@ -2673,7 +2673,6 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 }
 /* Footer contact alignment fix */
 .footer-contact li > a { display: flex; align-items: flex-start; gap: inherit; }
-/* index-hero */
 .index-hero-section {
   position: relative;
   width: 100%;
@@ -2681,7 +2680,7 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
   overflow: visible;
   display: flex;
   align-items: center;
-  background-color: #2C2926;
+  background-color: #1C1228;
   color: var(--text-light);
   padding-bottom: 90px;
   direction: rtl;
@@ -7230,6 +7229,10 @@ nav.navbar .sub-menu li a {
 
 .index-hero-section .index-hero-body-text {
   background-color: #2C1F3D !important;
+}
+
+.index-hero-section {
+  background-color: #1C1228 !important;
 }
 
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */

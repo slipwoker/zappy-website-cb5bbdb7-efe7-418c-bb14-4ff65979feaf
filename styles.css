@@ -7208,6 +7208,26 @@ nav.navbar .sub-menu li a {
 }
 }
 
+#zappy-element-1776175970061-7j6taeb78 img {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+}
+
+#zappy-element-1776175970061-7j6taeb78 {
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+#zappy-element-1776175970061-7j6taeb78 img {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+  object-fit: cover !important;
+  border-radius: 8px !important;
+}
+
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */
 .sub-menu:empty,
 .dropdown-menu:empty,

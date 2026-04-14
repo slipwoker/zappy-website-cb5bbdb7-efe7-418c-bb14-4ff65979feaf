@@ -7023,6 +7023,48 @@ nav.navbar .sub-menu li a {
 }
 }
 
+@media (max-width: 768px) {
+#zappy-element-1776072661777-9qrj81nib {
+  margin-top: 0 !important;
+  margin-bottom: 4px !important;
+}
+
+#zappy-element-1776072661777-9qrj81nib > div {
+  height: 260px !important;
+}
+
+.index-hero-section .index-hero-text-col {
+  gap: 4px !important;
+}
+
+.index-hero-section .index-hero-text-col > * {
+  margin-bottom: 4px !important;
+}
+
+.index-hero-section .index-hero-h1 {
+  margin-bottom: 8px !important;
+}
+
+.index-hero-section .index-hero-container {
+  gap: 8px !important;
+  padding-top: 70px !important;
+  padding-bottom: 20px !important;
+}
+}
+
+.index-features-section #zappy-element-1775927685093-mgi9awkx4 {
+  display: none !important;
+}
+
+.index-features-section #zappy-element-1775815359832-quzvrkv4l {
+  display: none !important;
+}
+
+.index-story-section .index-story-neuron-deco img,
+.index-story-section .footer-logo-wrap {
+  display: none !important;
+}
+
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */
 .sub-menu:empty,
 .dropdown-menu:empty,

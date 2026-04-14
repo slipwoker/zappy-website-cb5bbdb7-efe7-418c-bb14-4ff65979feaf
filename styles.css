@@ -7130,7 +7130,30 @@ nav.navbar .sub-menu li a {
 .index-benefits-section .index-benefits-intro > div[style*="margin-top: 28px"] {
   position: relative !important;
   z-index: 1 !important;
-  overflow: hidden !important;
+  overflow: visible !important;
+}
+
+.index-benefits-section .index-benefits-intro {
+  overflow: visible !important;
+  height: auto !important;
+  min-height: unset !important;
+}
+
+.index-benefits-section .index-benefits-intro > div[style*="margin-top"] {
+  overflow: visible !important;
+  position: relative !important;
+  z-index: 2 !important;
+  margin-bottom: 20px !important;
+}
+
+.index-benefits-section .index-benefits-inner {
+  overflow: visible !important;
+  align-items: start !important;
+}
+
+.index-benefits-section [data-grid-item-index="0"].index-benefits-intro {
+  overflow: visible !important;
+  height: auto !important;
 }
 
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */

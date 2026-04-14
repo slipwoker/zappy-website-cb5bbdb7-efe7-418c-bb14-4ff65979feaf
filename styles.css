@@ -7156,6 +7156,58 @@ nav.navbar .sub-menu li a {
   height: auto !important;
 }
 
+.index-benefits-section .index-benefits-intro > div[style*="margin-top"] {
+  margin-bottom: 24px !important;
+  overflow: visible !important;
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+.index-benefits-section .index-benefits-inner {
+  align-items: start !important;
+  row-gap: 40px !important;
+}
+
+@media (max-width: 768px) {
+.index-benefits-section .index-benefits-inner {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 32px !important;
+}
+
+.index-benefits-section .index-benefits-intro {
+  padding-bottom: 24px !important;
+}
+}
+
+@media (max-width: 768px) {
+#benefits .index-benefits-inner {
+  display: flex !important;
+  flex-direction: column !important;
+  grid-template-columns: 1fr !important;
+  gap: 32px !important;
+}
+
+#benefits .index-benefits-intro {
+  position: static !important;
+  width: 100% !important;
+  overflow: visible !important;
+  padding-bottom: 0 !important;
+}
+
+#benefits .index-benefits-grid {
+  width: 100% !important;
+  position: static !important;
+  margin-top: 0 !important;
+}
+
+#benefits [data-grid-item-index="0"],
+  #benefits [data-grid-item-index="1"] {
+  position: static !important;
+  width: 100% !important;
+}
+}
+
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */
 .sub-menu:empty,
 .dropdown-menu:empty,

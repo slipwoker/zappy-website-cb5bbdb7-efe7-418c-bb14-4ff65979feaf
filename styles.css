@@ -4386,8 +4386,8 @@ main { margin-top: 0 !important; padding-top: 0 !important; }
 .index-stats-section {
   position: relative;
   overflow: visible;
-  background-color: #000000;
-  background-image: radial-gradient(ellipse at 20% 80%, rgba(111,74,166,0.12) 0%, transparent 55%), radial-gradient(ellipse at 80% 20%, rgba(184,138,59,0.08) 0%, transparent 50%), linear-gradient(180deg, #000000 0%, #000000 60%, #000000 100%);
+  background-color: #1C1228;
+  background-image: radial-gradient(ellipse at 20% 80%, rgba(111,74,166,0.18) 0%, transparent 55%), radial-gradient(ellipse at 80% 20%, rgba(184,138,59,0.08) 0%, transparent 50%), linear-gradient(180deg, #1C1228 0%, #1C1228 60%, #1C1228 100%);
   color: var(--text-light);
   padding: 96px 24px 120px;
   direction: rtl;
@@ -6436,7 +6436,7 @@ body.accessibility-widget-visible ._access-menu {
 }
 
 .index-stats-section .index-stats-divider-wrapper svg path {
-  fill: #000000 !important;
+  fill: #1C1228 !important;
 }
 
 .index-hero-section .index-hero-body-text {
@@ -7233,6 +7233,10 @@ nav.navbar .sub-menu li a {
 
 .index-hero-section {
   background-color: #1C1228 !important;
+}
+
+#stats .index-stats-divider-wrapper svg path {
+  fill: #1C1228 !important;
 }
 
 /* ========== EMPTY SUBMENU HIDING (Auto-added by Zappy) ========== */

@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# VIKING CODE — Generative Engine Optimization Map
+
+> Viking Code is a neuroscience-based personal performance coaching brand founded by a practitioner with 20 years of experience. The brand blends masculine strength with emotional sensitivity — symbolized by 'horns and flowers' — targeting high-achieving executives, doctors, and edge performers. The visual and verbal identity is sophisticated, not aggressive: purple, gold, and white tones with a calm-yet-powerful atmosphere. The methodology centers on neurological rewiring to eliminate 'success tax' (mental noise, stress, background anxiety) and convert external chaos into forward momentum. The founder's personal story of collapse and rebuilding at age 50 is a core narrative element, lending authenticity and depth.
 
 ---
 
@@ -24,12 +26,30 @@ Information about WCAG compliance and accessibility features.
 
 ---
 
-# Business Context (for LLM understanding)
+## How to Contact Us
 
-## About Business
+- Email: omer.sharir@gmail.com
+- Phone: +972544494779
+- Phone (tel): tel:+972544494779
+- Address: הזית 32, אלפי מנשה, ISRAEL, 4485100, ישראל
+
 ---
 
-# Additional Resources
+# Business Context (for LLM understanding)
 
-- **Sitemap**: https://viking-code.co.il/sitemap.xml
-- **Robots.txt**: https://viking-code.co.il/robots.txt
+## About VIKING CODE
+Viking Code is a neuroscience-based personal performance coaching brand founded by a practitioner with 20 years of experience. The brand blends masculine strength with emotional sensitivity — symbolized by 'horns and flowers' — targeting high-achieving executives, doctors, and edge performers. The visual and verbal identity is sophisticated, not aggressive: purple, gold, and white tones with a calm-yet-powerful atmosphere. The methodology centers on neurological rewiring to eliminate 'success tax' (mental noise, stress, background anxiety) and convert external chaos into forward momentum. The founder's personal story of collapse and rebuilding at age 50 is a core narrative element, lending authenticity and depth.
+
+## Target Audience
+בכירים, רופאים ואנשי קצה — מנכ"לים ואנשי ביצועים גבוהים
+
+## Industry
+פיתוח אישי, קואוצ'ינג, מדעי המוח
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://viking-code.co.il/sitemap.xml
+- Robots: https://viking-code.co.il/robots.txt
+- Flattened page text (for LLMs): https://viking-code.co.il/llms-full.txt

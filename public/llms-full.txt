@@ -19,7 +19,7 @@ Description: Viking Code is a neuroscience-based personal performance coaching b
 - נתונים
 - שיחת התאמה
 
-ליווי אישי, מבוסס עקרונות מדעי המוח ליצירת שגשוג וחוסן מנטלי.
+ליווי אישי, מבוסס עקרונות מדעי המוח ליצירת שגשוג וחוסן מנטלי
 
 # VIKING CODE
 

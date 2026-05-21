@@ -23,7 +23,7 @@ Description: Viking Code is a neuroscience-based personal performance coaching b
 
 # VIKING CODE
 
-##   כשהעולם בחוץ סוער- הראש שלך חייב להיות שקט.
+## שלך חייב להיות שקט.
 
 הקוד הוויקינגי מנקה את רעשי הרקע ומחזיר לך את החדות בתוך הכאוס.
 
